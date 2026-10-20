@@ -1,0 +1,4 @@
+﻿Modo,Entregue (kWh),Pendente (kWh),Solar direta (%),Custo (R$),Economia estimada (R$),CO₂e estimado (kg),SOC final (%)
+PV Priority,21.0,0.0,60.71,11.7,5.1,4.763,50.0
+PV + Battery,21.0,0.0,60.71,10.45,6.35,4.763,22.83
+Fast,21.0,0.0,60.71,11.7,5.1,4.763,50.0

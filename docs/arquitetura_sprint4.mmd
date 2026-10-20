@@ -1,0 +1,32 @@
+flowchart TD
+    I[Entradas do cenário<br/>hora, clima, veículos, SOC e limites]
+    S[Modelo solar<br/>solar_module.py]
+    A[Controlador e comparador<br/>energy_manager.py + ai_module.py]
+    B[Estado da bateria<br/>battery_module.py]
+    T[Tarifação por fonte<br/>tarifa_module.py]
+    D[Rateio de potência<br/>por veículo]
+    U[Dashboard interativo<br/>Streamlit + gráficos]
+    R[Resultados exportáveis<br/>JSON / CSV / PNG]
+    G[Referência GoodWe HCA G2<br/>modos e balanceamento conceitual]
+    N[Limite explícito<br/>sem conexão física GoodWe]
+
+    I --> S
+    I --> A
+    S --> A
+    B <--> A
+    G -. inspira modos e requisitos .-> A
+    A --> D
+    D --> T
+    T --> U
+    D --> U
+    U --> R
+    N -. delimita .-> U
+
+    classDef input fill:#e8f1ff,stroke:#305c91,color:#13283f
+    classDef control fill:#d7f3e3,stroke:#23724b,color:#123b2a
+    classDef output fill:#fff0cf,stroke:#b97a16,color:#5c3c05
+    classDef boundary fill:#ffe2e2,stroke:#b33b3b,color:#652020
+    class I,S,B,G input
+    class A,D,T control
+    class U,R output
+    class N boundary

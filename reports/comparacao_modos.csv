@@ -1,0 +1,4 @@
+﻿modo,energia_entregue_kwh,energia_nao_atendida_kwh,solar_usada_kwh,bateria_fornecida_kwh,rede_importada_kwh,custo_total_rs,economia_estimada_rs,emissoes_estimadas_kg_co2e,emissoes_evitas_estimadas_kg_co2e,battery_soc_after_pct
+PV Priority,21.0,0.0,12.75,0.0,8.25,11.7,5.1,4.763,5.737,50.0
+PV + Battery,21.0,0.0,12.75,5.0,3.25,10.45,6.35,4.763,5.737,22.83
+Fast,21.0,0.0,12.75,0.0,8.25,11.7,5.1,4.763,5.737,50.0
