@@ -7,5 +7,5 @@ Vinicius Cristal de Oliveira — RM 572049
 Lucas Barros — RM 571528
 Renan Eskildssen — RM 571097
 
-VÍDEO NO YOUTUBE (NÃO LISTADO): PREENCHER COM O LINK DO NOVO VÍDEO DA SPRINT 4
+VÍDEO NO YOUTUBE (NÃO LISTADO): https://youtu.be/UG-LBiMApvE
 REPOSITÓRIO GITHUB: https://github.com/KaiqueKai/goodwe-chargegrid-poc2
