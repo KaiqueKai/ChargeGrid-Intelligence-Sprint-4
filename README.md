@@ -7,7 +7,7 @@
 ## Links do projeto
 
 - **Repositório GitHub:** https://github.com/KaiqueKai/goodwe-chargegrid-poc2
-- **Vídeo da Sprint 4 (YouTube, não listado):** `PREENCHER_DEPOIS_DE_PUBLICAR_O_NOVO_VIDEO`
+- **Vídeo da Sprint 4 (YouTube, não listado):** `[PREENCHER_DEPOIS_DE_PUBLICAR_O_NOVO_VIDEO](https://youtu.be/UG-LBiMApvE)`
 - **Arquivo da entrega do Portal:** [`ENTREGA_SPRINT4.txt`](ENTREGA_SPRINT4.txt)
 
 ## Equipe
